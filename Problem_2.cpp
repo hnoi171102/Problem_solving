@@ -57,7 +57,9 @@ int main()
         answer+="[";
         for(int j = 0; j < ans[i].size(); j++)
         {
+          answer.append("\"");
           answer+=ans[i][j];
+          answer.append("\"");
           if(j!=ans[i].size()-1)
           answer+=',';
         }
