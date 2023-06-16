@@ -13,7 +13,7 @@ void sortString(string &str)
 
 int main()
 {
-    freopen("test.txt","r",stdin);
+    //freopen("test.txt","r",stdin);
     string s;
     int cnt = 0;
     while(cin>>s)
